@@ -56,12 +56,11 @@ settings.pyを開き、
 MONGO_URL = "mongodb://<dbuser>:<dbpassword>@xxxxxxxx.mlab.com:xxxxx/hogehoge"
 ```
 の行の""の中を、前のステップで取得した `mongo_db_name` に書き換えます。  
-また、
+また、`<dbuser>:<dbpassword>`の部分は、`admin:admin`等、前ステップで作成した `dbuser` と `dbpassword` に書き換えて、保存(ctrl+s)します。  
 ```
-<dbuser>:<dbpassword>
+MONGO_DB_NAME = 'hogehoge'
 ```
-の部分は、`admin:admin`等、前ステップで作成した `dbuser` と `dbpassword` に書き換えて、保存(ctrl+s)します。  
-
+の行の`hogehoge`の部分は、前の手順で取得した`mongo_db_name`の内容に書き換えてください。   
 ターミナル(bash - "ubutu@xxxx..."となっているタブ)にて以下のコマンドを実行します。
 ```
 sh setup_c9_env.sh
