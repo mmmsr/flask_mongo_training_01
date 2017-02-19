@@ -87,8 +87,10 @@ Cloud9上で動作が確認できたら、次はHerokuにデプロイします�
 sh deploy_to_heroku.sh
 ```
 初回デプロイはライブラリのインストール等のために30分程度かかる可能性があります。  
-> Herokuへのデプロイが完了しました  
-
+> remote: Verifying deploy.... done.  
+> To https://git.heroku.com/xxxxx.git  
+>   xxxxxxx..xxxxxx  master -> master
+   
 と表示されたら完了です。  
 Herokuのダッシュボードで、作成したアプリのページを開き、Open Appボタンでアプリにアクセスしてみましょう。  
 ここで動作が確認できれば完了です。  
