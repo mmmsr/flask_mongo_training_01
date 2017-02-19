@@ -20,5 +20,3 @@ echo "Herokuにアプリを作成します。アプリの名前を入力して�
 read appname
 heroku apps:create $appname
 git push heroku master
-echo "Herokuへのデプロイが完了しました"
-
