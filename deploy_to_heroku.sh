@@ -1,7 +1,12 @@
 #!/bin/sh
+
+# Heroku CLIの更新
+echo "Heroku CLI最新版を取得します"
+wget -qO- https://cli-assets.heroku.com/install-ubuntu.sh | sh
+
 # Heroku 用のファイルを準備する
 echo "Heroku用のファイルを作成します"
-echo python-3.4.3 > runtime.txt
+echo python-3.5.2 > runtime.txt
 echo "runtime.txtを作成しました"
 echo web: gunicorn app:app --log-file=- > Procfile
 echo "Procfileを作成しました"
