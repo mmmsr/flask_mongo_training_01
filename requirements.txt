@@ -1,4 +1,4 @@
-Flask==0.12
+flask>=0.12.3
 Janome==0.2.8
 Pillow>=3.3.2
 chardet==2.2.1
