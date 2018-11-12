@@ -1,6 +1,6 @@
 Flask==0.12
 Janome==0.2.8
-Pillow==2.3.0
+Pillow>=3.3.2
 chardet==2.2.1
 colorama==0.2.5
 decorator==3.4.0
